@@ -1,0 +1,10 @@
+{
+  "image": "composer",
+  "depName": "composer",
+  "lookupName": "composer/composer",
+  "datasource": "github-releases",
+  "versioning": "semver",
+  "startVersion": "1.0.0",
+  "ignoredVersions": [],
+  "allowedVersions": ">=1.0.0"
+}
