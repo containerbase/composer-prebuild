@@ -32,7 +32,7 @@ function main () {
   echo "------------------------"
   echo "fetching archive"
   checksum_file=$(get_from_url "${URL}/${file_url}.sha256sum")
-  checksum_algo=sha512sum
+  checksum_algo=sha256sum
   expected_checksum=$(grep "composer.phar" "${checksum_file}" | cut -d' ' -f1)
 
   file=$(get_from_url \
