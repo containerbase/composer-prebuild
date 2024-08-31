@@ -2,7 +2,7 @@ FROM ghcr.io/containerbase/base:11.11.8@sha256:84abb66e5b105e1023dfd4b43a114c7d0
 
 # required to test composer
 # renovate: datasource=github-releases packageName=containerbase/php-prebuild
-RUN install-tool php 8.3.10
+RUN install-tool php 8.3.11
 
 ENTRYPOINT [ "dumb-init", "--", "builder.sh" ]
 
