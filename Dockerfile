@@ -1,4 +1,4 @@
-FROM ghcr.io/containerbase/base:14.58.0@sha256:e799bbbd537afdc2fdcc789ac112b3c307cd9a1ffbb2489053336ca5c252be09
+FROM ghcr.io/containerbase/base:14.59.1@sha256:ba9a5cd3b4e15ab467c6d7a15ac159aea369bc727d02931dba6409d3a9a1739e
 
 # required to test composer
 # renovate: datasource=github-releases packageName=containerbase/php-prebuild
