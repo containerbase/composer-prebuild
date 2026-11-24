@@ -6,4 +6,4 @@
 FROM scratch
 
 # renovate: datasource=github-releases packageName=composer/composer
-RUN install-tool composer 2.11.2
+RUN install-tool composer 2.11.3
